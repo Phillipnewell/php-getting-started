@@ -1,28 +1,53 @@
-# php-getting-started
+## Project php
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
+- Author: Your Name
+- Class: CS452/CS552 [Operating Systems] Section #num
 
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+## Overview
 
-## Deploying
+Concisely explain what the program does. If this exceeds a couple of
+sentences, you're going too far. Generally you should be pulling this
+right from the project specification. We don't want you to just cut and
+paste, but paraphrase what is stated in the project specification.
 
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+## Manifest
 
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku main
-$ heroku open
-```
+A listing of source files and other non-generated files and a brief (one line)
+explanation of the purpose of each file.
 
-or
+## Building the project
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+This section should tell the user how to build your code. If you are
+delivering a library, where does it need to be installed or how do you use
+it? Is this an executable, if so how can a user get up to speed as fast
+as possible.
 
-## Documentation
+## Features and usage
 
-For more information about using PHP on Heroku, see these Dev Center articles:
+Summarize the main features of your program. It is also appropriate to
+instruct the user how to use your program.
 
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+## Testing
+
+This section should detail how you tested your code. Simply stating "I ran
+it a few times and it seems to work" is not sufficient. Your testing needs to
+be detailed here.
+
+## Known Bugs
+
+List known bugs that you weren't able to fix (or ran out of time to fix).
+
+## Reflection and Self Assessment
+
+Discuss the issues you encountered during development and testing. What
+problems did you have? What did you have to research and learn on your
+own? What kinds of errors did you get? How did you fix them?
+
+What parts of the project did you find challenging? Is there anything that
+finally "clicked" for you in the process of working on this project? How well
+did the development and testing process go for you?
+
+## Sources Used
+
+If you used any sources outside of the text book you should list them here. If you looked something up on
+stackoverflow.com and fail to cite it in this section it will be considered plagiarism and be dealt with accordingly. So be safe CITE!
