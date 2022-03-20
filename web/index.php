@@ -1,4 +1,5 @@
 <?php
-
-   echo "Hello there Heroku, Phillip here!"
+    $title = 'Home';
+    $childView = 'views/_index.php';
+    include('layout.php');
 ?>
