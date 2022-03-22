@@ -4,6 +4,8 @@
   --color-accent: #a39c96;
   --color-headings: #1b0760;
   --color-body: #686060;
+  --color-border: #ccc;
+  --border-radius: 30px;
 }
 
 /*Typography*/
@@ -78,6 +80,55 @@ a {
   }
 }
 
+/*Buttons*/
+.btn {
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 2rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.btn--primary {
+  background: var(--color-primary);
+}
+
+.btn--secondary {
+  background: var(--color-secondary);
+}
+
+.btn--accent {
+  background: var(--color-accent);
+}
+/*Make it the entire width of the screen*/
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn--outline {
+  background: white;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+.btn --secondary:hover {
+  background: lighten(--secondary);
+}
+
+.btn --primary:hover {
+  background: lighten(--primary);
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font: 1.5rem;
+  }
+}
+
 /* card */
 .card {
   border-radius: 7px;
@@ -102,22 +153,22 @@ a {
 
 /*input*/
 .input {
-  padding: 1.5 rem 3.5 rem;
-  border: 1px solid #ccc;
-  border-radius: 30px;
-  outline: 0;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
   color: var(--color-headings);
   font-size: 2rem;
+  outline: 0;
+  padding: 1.5 rem 3.5 rem;
 }
 
 .input_group {
-  border: 1 solid #ccc;
-  border-radius: 30px;
+  border: 1 solid var(--color-border);
+  border-radius: var(--border-radius);
   display: flex;
 }
 
 .input_group .input {
-  border: 0;
+  border: none;
   flex-grow: 1;
   padding: 1.5rem 1rem;
 }
