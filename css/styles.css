@@ -99,3 +99,39 @@ a {
   background: var(--color-secondary);
   color: white;
 }
+
+/*input*/
+.input {
+  padding: 1.5 rem 3.5 rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: 0;
+  color: var(--color-headings);
+  font-size: 2rem;
+}
+
+.input_group {
+  border: 1 solid #ccc;
+  border-radius: 30px;
+  display: flex;
+}
+
+.input_group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+
+.input_group .btn {
+  margin: 4px;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
