@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #a39696;
+  --color-secondary: #96a3a3;
+  --color-accent: #a39c96;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+}
+
+body {
+  background-color: gold;
+}
